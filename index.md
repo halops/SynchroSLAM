@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## SynchroSem
 
-You can use the [editor on GitHub](https://github.com/halops/SynchroSem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Abstract
+We present SynchroSem: a loosely coupled multi-modal semantic SLAM approach for synchronized Lidar-Visual-Inertial (LVI) systems. Our system integrates pose measurements from two different tightly coupled odometry systems, Visual-Inertial (VI) and Lidar-Inertial (LI). These are loosely coupled by means of a pose graph representation that enables a robust late-fusion of measurements, being resilient to geometric and visual degeneracy. The developed multi-modal semantic feature extraction allows the global optimization system to reduce long term operation errors via loop closure. Our approach achieves State-of-the-Art performance on public Lidar-Visual-Inertial (LVI) datasets, while also being deployed on a custom robotics platform.
+A simple and reproducible hardware synchronization system using commercial-off-the-shelf hardware has been implemented and is made publicly available at https://sinchrosem.github.io. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/halops/SynchroSem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Code
+The code will be open-sourced soon™
