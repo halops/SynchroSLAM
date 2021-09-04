@@ -7,7 +7,7 @@ Our method has also been deployed on a custom robotics platform. We developed a 
 
 ## Hardware setup
 The hardware platform for this project consists of a Clearpath Jackal unmanned ground vehicle (UGV), coupled with the Scaled Robotics sensor rig: a platform containing 2x Velodyne VLP-16 Lidars, 1x Realsense D435i stereo-inertial camera, 1x Microstrain 3DM-GX-45 high rate IMU, as well as 3x fisheye rolling shutter cameras with a 360º field of view (FOV). Moreover, the Jackal UGV has been equipped with an Intel NUC 10i7FNH, a powerful on-board computer with an Intel i7-1071OU processor.\
-<img src="https://raw.githubusercontent.com/halops/SynchroSem/gh-pages/docs/assets/sr_jackal.png" width=50% height=50%>
+![Jackal picture](/docs/assets/sr_jackal.png)
 
 ## Sensor synchronization
 ### Theoretical basis
