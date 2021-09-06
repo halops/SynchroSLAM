@@ -1,13 +1,14 @@
 ## Introduction
 We present SynchroSem: a loosely coupled multi-modal semantic SLAM approach for synchronized Lidar-Visual-Inertial (LVI) systems. Our system integrates pose measurements from two different tightly coupled odometry systems, Visual-Inertial (VI) and Lidar-Inertial (LI). These are loosely coupled by means of a pose graph representation that enables a robust late-fusion of pose measurements, being resilient to geometric and visual degeneracy. The developed multi-modal semantic feature extraction allows the global optimization system to reduce long term operation errors via loop closure, achieving State-of-the-Art performance on public LVI datasets.
-Our method has also been deployed on a custom robotics platform. We developed a simple and reproducible hardware synchronization system using commercial-off-the-shelf hardware, and it is made publicly available at https://halops.github.io/SynchroSem/.
-
+Our method has also been deployed on a custom robotics platform. We developed a simple and reproducible hardware synchronization system using commercial-off-the-shelf hardware, and it is made publicly available.
 ### Videos
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kQ8TA6kIIv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Hardware setup
 The hardware platform for this project consists of a Clearpath Jackal unmanned ground vehicle (UGV), coupled with the Scaled Robotics sensor rig: a platform containing 2x Velodyne VLP-16 Lidars, 1x Realsense D435i stereo-inertial camera, 1x Microstrain 3DM-GX-45 high rate IMU, as well as 3x fisheye rolling shutter cameras with a 360º field of view (FOV). Moreover, the Jackal UGV has been equipped with an Intel NUC 10i7FNH, a powerful on-board computer with an Intel i7-1071OU processor.\
 ![Jackal picture](/docs/assets/sr_jackal_small.png)
+
+## SR Office Dataset
 
 ## Sensor synchronization
 ### Theoretical basis
