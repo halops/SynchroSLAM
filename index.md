@@ -83,5 +83,3 @@ The realsense camera is triggered externally using the Raspberry PI GPIO pins. A
 
 ## Code
 The code will be open-sourced soon
-
-
